@@ -1,0 +1,8 @@
+html{ height:100%; }
+body {
+    min-height: 100%;
+    padding:0;
+    margin:0;
+    display: grid;
+    place-items: center;
+}
