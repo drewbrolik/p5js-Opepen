@@ -9,7 +9,7 @@ Run index.html to test.
 You are free to use and modify this for whatever you want.
 
 ### Canvas Size
-When this project loads and when the window is resized, it will read the width and height and resize to the largest square possible. There's a line in the code that will extend the background color to whatever size the screen is. It starts commented, but uncomment to use.
+When this project loads and when the window is resized, it will read the width and height and resize to the largest square possible. Although the canvas is square, there's a line in the code that extends the background color to whatever size the screen is. To see the true square, comment out line 70 (`document.body.style.backgroundColor = backgroundColor;`).
 
 The p5.js canvas itself is set to 1970 x 1970. The dimensions of the Opepen are based on this, so don't change it. The canvas will resize based on the logic above anyway. Also, I wish I chose a better number than 1970, but that's how I made it.
 

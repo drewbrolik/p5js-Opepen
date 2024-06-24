@@ -67,7 +67,7 @@ function setup() {
   background(backgroundColor);
   
   // expand background color full screen, outside of canvas
-  // canvasElement.parentElement.style.backgroundColor = backgroundColor;
+  document.body.style.backgroundColor = backgroundColor;
   
 }
 
