@@ -264,7 +264,7 @@ function draw() {
 function keyTyped() {
   
   if (key === 's') {
-    save(invocation+'.png');
+    save('p5-opepen.png');
   }
   
 }
